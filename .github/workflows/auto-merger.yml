@@ -14,7 +14,7 @@ jobs:
       - name: Generate provenance
         uses: slsa-framework/github-actions-demo@v0.1
         with:
-          artifact_path: my-artifact
+          artifact_path: Dockerfile
 
       - name: Upload provenance
         uses: actions/upload-artifact@v2
