@@ -2,7 +2,7 @@ name: Update cms/master
 on:
   push:
     branches:
-      - dev
+      - main
 jobs:
   update-cms-master:
     name: Merge master into release after a PR is merged
